@@ -43,9 +43,13 @@ namespace line_comparison_probelm
             {
                 Console.WriteLine("Both lines are equal in length.");
             }
+            else if (len_first > len_sec)
+            {
+                Console.WriteLine("First line is longer than second line.");
+            }
             else
             {
-                Console.WriteLine("Both lines are not equal in length.");
+                Console.WriteLine("Second line is longer than first line.");
             }
         }
     }
